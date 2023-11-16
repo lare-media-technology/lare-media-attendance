@@ -22,6 +22,7 @@ const config: NextAuthOptions = {
 			},
 		},
 	],
+	secret: process.env.NEXTAUTH_SECRET!,
 	callbacks: {
 		// eslint-disable-next-line
 		async signIn({ user, account, profile, email, credentials }) {
