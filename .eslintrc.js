@@ -21,6 +21,7 @@ module.exports = {
 		'next/core-web-vitals',
 	],
 	rules: {
+		'@next/next/no-page-custom-font': 'off',
 		'@typescript-eslint/ban-types': [
 			'error',
 			{
